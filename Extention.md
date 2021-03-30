@@ -1,0 +1,5 @@
+The Game Project 7 - Make It Awesome 
+
+For the extension, firstly I created platforms. This allowed my game character to jump over bigger canyons and avoid enemies. When making these I learnt how to use the factory pattern; This allowed me to write the code on how to draw the platforms one, and then push that code into an empty array with the arguments I wanted, so I didn’t have to write the code out multiple times. I was then able to draw all of them using a for loop in my draw function, so I didn’t have to draw them all individually. 
+I also created enemies and to do so I learn how to use constructor functions; This allowed me to create every enemy as a new object without having to write out the code for each one. I learnt how to use the this keyword to declare the properties of the new object the function would be creating. I also learnt how to create a method inside the function that would allow me to draw the enemy. 
+When completing the extension, I also learnt how to add sound to my game. I did this using loadSound. I played the sounds that I loaded when my game character jumped, collected a collectable, died or won the game. 
